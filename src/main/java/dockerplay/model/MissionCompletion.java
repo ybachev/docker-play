@@ -7,6 +7,7 @@ import java.time.LocalDate;
  * on 6/12/17.
  */
 public class MissionCompletion {
+
     private String missionId;
     private LocalDate completionDate;
     private int pointsEarned;

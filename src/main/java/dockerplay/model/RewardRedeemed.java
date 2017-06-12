@@ -7,6 +7,7 @@ import java.time.LocalDate;
  * on 6/12/17.
  */
 public class RewardRedeemed {
+
     private String rewardId;
     private LocalDate redeemedOn;
     private int pointCost;

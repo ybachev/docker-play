@@ -13,9 +13,8 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import java.util.Arrays;
 
 /**
- *
- Created by yb
- on 6/6/17.
+ * Created by yb
+ * on 6/6/17.
  */
 
 @SpringBootApplication
@@ -51,7 +50,7 @@ public class DockerPlayEmployeeApplication implements CommandLineRunner {
         repository.save(employee1);
         repository.save(employee2);
 
-        for (Employee emp : repository.findAll() ) {
+        for (Employee emp : repository.findAll()) {
             System.out.println(emp.toString());
         }
 
